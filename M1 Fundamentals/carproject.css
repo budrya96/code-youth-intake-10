@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction:column
+    }
+header ul{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+        color: rgb(245, 38, 31);
+        background-image: url(./images/car-banner.jpg); 
+}
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+ul{
+    margin: 0;
+}
+h1{
+    font-size: 70px;
+}
+#one{
+    float: left;
+    width: 30%;
+    margin-right: 40px;
+}
+#two{
+    float: left;
+    width: 30%;
+    margin-right: 40px;   
+}
+#three{
+    float: left;
+    width: 30%;
+}
