@@ -4,36 +4,92 @@ body{
     height: 100%;
     display: flex;
     flex-direction:column
-    }
+}
 header ul{
         display: flex;
         justify-content: space-evenly;
         padding: 0;
         margin: 0;
         color: rgb(245, 38, 31);
-        background-image: url(./images/car-banner.jpg); 
+        background-image: url(./images/car-banner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
 }
 li{
     list-style-type: none;
     padding: 15px;
+    color: #ff6f3c;
+    font-size: 40px;
 }
 ul{
     margin: 0;
 }
+main{
+    
+    align-items: center;
+    background: #155263
+}
 h1{
-    font-size: 70px;
+    font-size: 100px;
+    color: #ff6f3c;
+}
+h2{
+    font-size: 40px;
+    color: #ff6f3c;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    color: #ff9a3c;
 }
 #one{
     float: left;
     width: 30%;
     margin-right: 40px;
+    text-align: center;
 }
 #two{
     float: left;
     width: 30%;
-    margin-right: 40px;   
+    margin-right: 40px;  
+    text-align: center; 
 }
 #three{
     float: left;
     width: 30%;
+    text-align: center;
+}
+#four{
+    clear:both;
+    text-align: center;
+}
+label{
+    font-size: 30px;
+    color: #ff9a3c;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover{
+    color: #ffc93c;
+    text-decoration: underline;
+}
+a:active {
+    color: #ffc93c;
+    text-decoration: underline;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #ffc93c;
+    color: #ff6f3c;
+}
+footer{
+    background-color:#ff6f3c;
+    color: #ffc93c;
 }
