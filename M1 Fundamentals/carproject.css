@@ -46,17 +46,32 @@ p{
     width: 30%;
     margin-right: 40px;
     text-align: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 7px;
+    border-color: #ffc93c;
+    background-color: black;
 }
 #two{
     float: left;
     width: 30%;
     margin-right: 40px;  
-    text-align: center; 
+    text-align: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 7px;
+    border-color: #ffc93c;
+    background-color: black;
 }
 #three{
     float: left;
     width: 30%;
     text-align: center;
+    border-style: ridge;
+    border-width: 5px;
+    border-radius: 7px;
+    border-color: #ffc93c;
+    background-color: black;
 }
 #four{
     clear:both;
@@ -96,6 +111,7 @@ button{
 }
 #five{
     display: inline-block;
+    padding-bottom: 40px;
     
 }
 footer{
