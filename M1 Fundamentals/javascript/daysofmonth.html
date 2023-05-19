@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let month = prompt("Enter a number corresponding to a month of the year:  ");
+        if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12){
+            console.log("31 days")
+        }
+        else if(month == 2){
+            console.log("28 or 29 days")
+        }
+        else if(month > 12){
+            console.log("Enter a number between 1-12")
+        }
+        else{
+            console.log("30 days")
+        }
+    </script>
+</body>
+</html>
