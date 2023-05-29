@@ -17,12 +17,12 @@
         Using a for loop add the number 0 - 10 to the array
     */
 
-// let data=[];
+ let data=[];
 
-// for(i=0;i<11;i++){
-//     data[i] =i;
-// }
-// console.log(data)
+for(i=0;i<11;i++){
+    data[i] =i;
+}
+console.log(data)
 
 /*
         2)
@@ -30,14 +30,14 @@
         !Hint: try looking up: "js how to empty an array"
         */
         
-// let toBeAdded = ["Jomsly", "Henrick", "Darsha"]
-// let banList = ["Budly","Gurtrood","dimsly"]
+let toBeAdded = ["Jomsly", "Henrick", "Darsha"]
+let banList = ["Budly","Gurtrood","dimsly"]
 
-// banList.push(toBeAdded);
+banList.push(toBeAdded);
 
-// console.log(banList);
-// toBeAdded.length=0;
-// console.log(toBeAdded);
+console.log(banList);
+toBeAdded.length=0;
+console.log(toBeAdded);
 
 
 
@@ -68,12 +68,6 @@ weekDays.unshift("Thursday");
 weekDays.unshift("Wednesday");
 weekDays.unshift("Tuesday");
 weekDays.unshift("Monday");
-
-
-
-
-
-
 
 console.log(weekDays);
 
