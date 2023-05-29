@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HEADING</h1>
+
+    <button onclick="change1()">Dark mode</button>
+    <button onclick="change2()">Light mode</button>
+
+    <script>
+        function change1(){
+           const b1= document.body;
+            b1.style.backgroundColor="black";
+            b1.style.color="white"
+        }  
+
+        function change2(){
+           const b2= document.body;
+            b2.style.backgroundColor="white";
+            b2.style.color="black"
+        }  
+
+    </script>
+</body>
+</html>
