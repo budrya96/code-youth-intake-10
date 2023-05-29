@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading1">Heading</h1>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat doloribus quaerat quibusdam quasi assumenda error veniam aperiam magni maxime numquam ea facilis incidunt tempore minima quis, animi aut, sequi nobis?</p>
+    <p id="para2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A necessitatibus perferendis excepturi nobis magni ea numquam quos beatae soluta. Perspiciatis saepe natus deserunt sint dolore! Architecto expedita neque totam eveniet?</p>
+    <button onclick=change()>Change</button>
+    <script>
+        function change(){
+            const paragraph1 = document.getElementById("para1");
+            const paragraph2 = document.getElementById("para2");
+
+            paragraph1.style.color="blue"
+            paragraph2.style.color="green"
+        }
+
+    </script>
+</body>
+</html>
