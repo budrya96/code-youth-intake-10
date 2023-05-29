@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li class="red">Apple</li>
+        <li id="yellow">Banana</li>
+        <li class="red">Strawberry</li>
+        <li class="red">Pomegranate</li>
+        <li class="green">Grapes</li>
+        <li class="green">Kiwi</li>
+        <li id="orange">Orange</li>
+    </ul>
+    <button onclick="change()">Change color</button>
+    <script>
+       
+        function change(){
+            const red = document.getElementsByClassName("red")
+            const yellow = document.getElementById("yellow")
+            const orange = document.getElementById("orange")
+            const green = document.getElementsByClassName("green")
+
+            yellow.style.color="yellow"
+            orange.style.color="orange" 
+                 for(let i=0;i<=red.length || i<=green.length;i++){
+                 red[i].style.color="red"
+                 green[i].style.color="green"
+                }
+         }
+  
+    </script>
+</body>
+</html>
