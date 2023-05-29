@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr><th>Model</th><th>Wheels</th><th>Year</th></tr>
+        </thead>
+        <tbody>
+            <tr class="dodgeCharger">
+                <th>Dodge Charger</th><th>4</th><th>2010</th>
+            </tr>
+            <tr class="fiatPanda">
+                <th>Fiat Panda</th><th>4</th><th>1979</th>
+            </tr>
+            <tr class="audiQ7">
+                <th>Audi Q7</th><th>4</th><th>2006</th>
+            </tr>
+            <tr class="jeepCherokee">
+                <th>Jeep Cherokee</th><th>4</th><th>1974</th>
+            </tr>
+            <tr class="kiaNiro">
+                <th>Kia Niro</th><th>4</th><th>2017</th>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="change1()">Dodge Charger</button>
+    <button onclick="change2()">Fiat Panda</button>
+    <button onclick="change3()">Audi Q7</button>
+    <button onclick="change4()">Jeep Cherokee</button>
+    <button onclick="change5()">Kia Niro</button>
+
+
+    <script>
+       function change1(){
+           const b1 = document.getElementsByClassName("dodgeCharger")
+           for(let i=0;i<=b1.length;i++){
+                b1[i].style.backgroundColor="black";
+                b1[i].style.color="white"
+            }
+        } 
+        function change2(){
+           const b1 = document.getElementsByClassName("fiatPanda")
+           for(let i=0;i<=b1.length;i++){
+                b1[i].style.backgroundColor="black";
+                b1[i].style.color="white"
+            }
+        }  
+        function change3(){
+           const b1 = document.getElementsByClassName("audiQ7")
+           for(let i=0;i<=b1.length;i++){
+                b1[i].style.backgroundColor="black";
+                b1[i].style.color="white"
+            }
+        }  
+        function change4(){
+           const b1 = document.getElementsByClassName("jeepCherokee")
+           for(let i=0;i<=b1.length;i++){
+                b1[i].style.backgroundColor="black";
+                b1[i].style.color="white"
+            }
+        }  
+        function change5(){
+           const b1 = document.getElementsByClassName("kiaNiro")
+           for(let i=0;i<=b1.length;i++){
+                b1[i].style.backgroundColor="black";
+                b1[i].style.color="white"
+            }
+        }   
+
+    </script>
+</body>
+</html>
