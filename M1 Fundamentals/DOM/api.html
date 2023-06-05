@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // fetch('https://opentdb.com/api.php?amount=10')
+    //     .then(function(response){
+    //         return response.json()
+    //     })
+    //     .then(function(resp){
+    //         console.log(resp)
+    //     })
+
+    //const url ='https://api.artic.edu/docs/'
+
+    // fetch(url)
+    // .then((res)=>console.log(res))
+    // .then((data)=>console.log("data", data))
+    // .catch((error)=>console.log(error))
+
+
+    fetch('https://type.fit/api/quotes')
+    .then((response)=>response.json())
+    .then((data)=> {
+			console.log("data",data)
+            const table = document.createElement('table');
+            let temp='';
+			for(let i=0;i<data.length;i++){
+				//temp+=
+			}
+            document.innerHT
+		})
+        .catch((error)=>console.log(error))
+    </script>
+</body>
+</html>
