@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="red">Red</p>
+    <p id="green">Green</p>
+    <p id="yellow">Yellow</p>
+    <p id="blue">Blue</p>
+
+    <script>
+
+        const red = document.getElementById("red");
+        const green = document.getElementById("green");
+        const yellow = document.getElementById("yellow");
+        const blue = document.getElementById("blue");
+        
+        red.addEventListener('mouseover',function(){
+                red.style.color="red";
+
+		    }
+        )
+
+        green.addEventListener('mouseover', function(){
+                
+                green.style.color="green";
+               
+                
+            }
+         )
+
+         yellow.addEventListener('mouseover', function(){
+        
+                yellow.style.color="yellow";
+            
+                
+            }
+         )
+
+         blue.addEventListener('mouseover', function(){
+                blue.style.color="blue";
+                
+            }
+         )
+
+
+
+    </script>
+</body>
+</html>
