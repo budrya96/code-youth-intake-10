@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="Index.html"><h1>EZ<span>Games</span></h1></a>
+             <div id="toggle">
+             <i class="indicator"></i>
+                </div>
+            <a href=""><li>Tic Tac Toe</li></a>
+            <a href=""> <li>Hangman</li></a>
+            <a href="about.html"> <li>About</li></a>
+        </ul>
+    </header>
+
+    <main>
+        <br><br><br>
+        <p>A page for the most fun and entertaining games on the internet!</p>
+        <br>
+
+
+        <a href=""><img style="float: left; margin-right: 40px; margin-left: 50px;" src="tictactoe_play.jpg" alt="tic tac toe"></a>
+        <a href=""><img style="height: 500px; width: 700px; float: left; margin-right: 40px; margin-left: 50px;" src="hangman.jpg" alt="hangman"></a>
+    </main>
+    
+
+    <script>
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            body.classList.toggle('active')
+        }
+        //All of this
+    </script>
+</body>
+</html>

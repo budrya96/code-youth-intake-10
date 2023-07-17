@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- "game title" - EZGames-->
+    <title>EZGames</title>
+    <!-- Copy this-->
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="Index.html"><h1>EZ<span>Games</span></h1></a>
+             <div id="toggle">
+             <i class="indicator"></i>
+                </div>
+            <a href=""><li>Tic Tac Toe</li></a>
+            <a href=""> <li>Hangman</li></a>
+            <a href="tapgame.html"> <li>Clicker</li></a>
+            <a href="about.html"> <li>About</li></a>
+        </ul>
+    </header>
+    
+   <main>
+    <br><br><br>
+        <p>A page for the most fun and entertaining games on the internet!</p>
+        <br>
+
+        <img style="margin-right: 40px; margin-left: 350px; padding-bottom: 30px;" src="boy-playing-game-on-laptop.jpg" alt="boy playing game on laptop">
+
+        <a href=""><img style="height: 300px; width: 400px;float: left; margin-right: 40px; margin-left: 100px;" src="tictactoe_play.jpg" alt="tic tac toe"></a>
+        <a href=""><img style="height: 300px; width: 400px; float: left; margin-right: 40px; margin-left: 50px;" src="hangman.jpg" alt="hangman"></a>
+        <a href="tapgame.html"><img style="height: 200px; width: 600px; float: left; margin-right: 40px; margin-left: 50px;" src="clicker game icon.jpg" alt="clicker game"></a>
+
+    
+   </main>
+    
+    <script>
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            body.classList.toggle('active')
+        }
+        //All of this
+    </script>
+    </body>
+</html>

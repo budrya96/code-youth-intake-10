@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>tapgame</title>
+
+    <style>
+		body {
+			margin: 0px;
+			background: #2b2b2b;
+		}
+
+		.circle {
+			width:70px;
+			height: 70px;
+			border-radius: 100%;
+			position:relative;
+			background-image: url(ezgameslogo.jpg);
+			background-size:contain;
+			animation: movement;
+		}
+
+		@keyframes movement {
+			0% {
+				left: 0px;
+				top: 0px
+			}
+
+			5% {
+				left: 300px;
+				top: 200px
+			}
+
+			10% {
+				left: 600px;
+				top: 100px
+			}
+
+			15% {
+				left: 600px;
+				top: 600px
+			}
+
+			20% {
+				left: 300px;
+				top: 600px
+			}
+
+			25% {
+				left: 600px;
+				top: 400px
+			}
+
+			30% {
+				left: 100px;
+				top: 0px
+			}
+
+			35% {
+				left: 600px;
+				top: 200px
+			}
+
+			40% {
+				left: 100px;
+				top: 500px
+			}
+
+			45% {
+				left: 0px;
+				top: 600px
+			}
+
+			50% {
+				left: 600px;
+				top: 600px
+			}
+
+			55% {
+				left: 300px;
+				top: 200px
+			}
+
+			60% {
+				left: 600px;
+				top: 100px
+			}
+
+			65% {
+				left: 800px;
+				top: 600px
+			}
+
+			70% {
+				left: 300px;
+				top: 600px
+			}
+
+			75% {
+				left: 600px;
+				top: 400px
+			}
+
+			80% {
+				left: 100px;
+				top: 0px
+			}
+
+			85% {
+				left: 600px;
+				top: 200px
+			}
+
+			90% {
+				left: 100px;
+				top: 500px
+			}
+
+			95% {
+				left: 0px;
+				top: 600px
+			}
+
+			100% {
+				left: 600px;
+				top: 200px;
+			}
+		}
+
+		.details {
+			float: right;
+			width: 400px;
+			height: 100vh;
+			position: relative;
+			background-color: #2b2b2b;
+			color: red;
+			display: block;
+			text-align: center;
+		}
+
+		.ground {
+			float: left;
+		}
+
+	    .display_score {
+			margin-top: 25px;
+		}
+
+		button {
+			border-radius: 25px;
+			width: 8em;
+			height: 3em;
+			font-size: 20px;
+			border: 2px solid black;
+			background: transparent;
+			color: red;
+			margin: 10px;
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: black;
+			color: red;
+		}
+       
+	</style>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <a style="font-size:30px; font-family:Trebuchet MS; text-decoration: none;color: #000000;" href="Index.html"><h1>HOME PAGE</h1></span></h1></a>
+        </ul>
+    </header>
+	<div class="ground">
+		<div id="circle" onclick="count()"></div>
+	</div>
+	<div class="details">
+		<h1>Catch EZ GAMES!</h1>
+			<button onclick="play()">PLAY!</button>
+		
+		<div class="display_score">
+			<h2>Score</h2>
+			<h2 id="score">0</h2>
+		</div>
+		<button onclick="restart()">RESTART</button>
+	</div>
+
+	<script>
+		function play() {
+			document.getElementById('circle')
+				.style.animationDuration = '12s';
+			document.getElementById('circle')
+				.className = 'circle';
+		}
+
+		let cnt = 0;
+
+		
+		function count() {
+			cnt = parseInt(1) + parseInt(cnt);
+			let scr = document.getElementById('score');
+			scr.innerHTML = cnt;
+		}
+
+		
+		function restart() {
+			window.location.reload();
+		}
+	</script>
+</body>
+	
+</html>
